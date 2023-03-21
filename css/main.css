@@ -1,0 +1,55 @@
+@import url(reset.css);
+.main{
+    height: 50px;
+}
+.block_menu{
+    background-color: rgba(254,254,254,255);
+    margin-right: 0px;
+    height: 100%;
+}
+.menu{
+    background-color: rgba(254,254,254,255);
+    display: block;
+    height: 50px;
+    float: left;
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+}
+.first{
+    margin-right: 866px;
+    font-size: 25px;
+}
+.HoveR{
+    transition-duration: 0.5s;
+    transition-property: background-color;
+}
+.HoveR:hover{
+    background-color: rgba(243,243,243,255) ;
+    cursor: pointer;
+}
+.pass{
+    min-width: 100px;
+    height: 20px;
+}
+.button_1{
+    position: relative;
+    height: 50px; 
+    background: rgba(254,254,254,255);
+    border-bottom: 10px solid #333;
+    top: -50px;
+    transition-property: top;
+    transition-duration: 2s;
+}
+.button_1:hover{
+    top: 0px;
+}
+.button_2{
+    transition-property: background-color, border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.button_2:hover{
+    background-color: rgb(255, 197, 174);
+    border-radius: 50%;
+}
